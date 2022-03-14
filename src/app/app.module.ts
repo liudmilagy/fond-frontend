@@ -3,16 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MenuBigComponent } from './components/menu-big/menu-big.component';
+import {MainPageModule} from "./components/main-page/main-page.module";
 
 @NgModule({
   declarations: [
-    AppComponent,
-    MenuBigComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MainPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
